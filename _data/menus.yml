@@ -1,4 +1,7 @@
 ---
 footer:
+- url: https://my.webtuna.com/login.jsp
+  weight: 5
+  title: Login
 - weight: 4
   title: Posts
