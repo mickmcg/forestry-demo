@@ -6,6 +6,12 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: jekyll-pages
+  label: Pages
+  create: all
+  templates:
+  - landing-page
+  - page
 - type: jekyll-posts
   label: Posts
   create: all
@@ -28,12 +34,6 @@ sections:
 - type: document
   path: _data/information.yml
   label: Contact Information
-- type: jekyll-pages
-  label: Pages
-  create: all
-  templates:
-  - landing-page
-  - page
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
