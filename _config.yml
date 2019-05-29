@@ -3,6 +3,8 @@ short_title: Belkirk
 description: Belkirk Demo Site for Forestry.io
 baseurl: "/forestry-demo"
 permalink: "/:path/"
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
 defaults:
   - scope:
       path: ""
